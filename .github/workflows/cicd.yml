@@ -8,7 +8,7 @@ on:
       - hyunseok
 
 env:
-  DOCKER_IMAGE_NAME: hyunseok/musa
+  DOCKER_IMAGE_NAME: tjgustjr/musa
   EC2_HOST: ${{ secrets.EC2_URL }}
   EC2_SSH_USER: ubuntu
   PRIVATE_KEY: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
