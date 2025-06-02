@@ -74,5 +74,4 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-buildDir = "C:/intelliJBuild/likelion13th/build"
 
