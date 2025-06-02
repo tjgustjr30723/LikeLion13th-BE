@@ -39,3 +39,4 @@ out/
 # Spring Boot 설정 파일 무시
 application.yml
 application-*.yml
+!application-prod.yml
