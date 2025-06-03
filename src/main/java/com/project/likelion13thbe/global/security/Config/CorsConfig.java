@@ -24,6 +24,7 @@ public class CorsConfig implements WebMvcConfigurer {
         allowedOriginPatterns.add("http://localhost:3000");
         allowedOriginPatterns.add("http://127.0.0.1:8080");
         allowedOriginPatterns.add("http://127.0.0.1:3000");
+        allowedOriginPatterns.add("https://hyunseok.store");
 
 
         //허용하는 HTTP METHOD 지정
