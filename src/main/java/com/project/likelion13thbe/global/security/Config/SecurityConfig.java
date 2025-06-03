@@ -40,6 +40,7 @@ public class SecurityConfig {
 
     //인증이 필요하지 않은 url
     private final String[] allowUrl = {
+            "/",
             "/members/login", //로그인 은 인증이 필요하지 않음
             "/members/auth", // 회원가입은 인증이 필요하지 않음
             "/members/login/kakao",
